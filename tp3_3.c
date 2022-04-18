@@ -46,6 +46,8 @@ int main(){
     cargarClientes(punteroCliente, cantidadClientes);
     mostrarClientes(punteroCliente, cantidadClientes);
 
+    free(punteroCliente);
+
     getchar();
     return 0;
 }
